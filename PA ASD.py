@@ -179,10 +179,6 @@ def pesan():
             break 
                     
 
-    
-    
-
-
 def user_login():
     print()
     user = input("Masukkan Username: ")
