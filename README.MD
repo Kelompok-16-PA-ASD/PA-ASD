@@ -21,7 +21,6 @@
     Metode SORT (quick_sort) mengurutkan tas di inventaris berdasarkan harga menggunakan algoritma Quick Sort. Metode ini memanggil metode bantu (_quick_sort) yang mengimplementasikan algoritma rekursif. Metode bantu ini mengambil head linked list sebagai input dan mengembalikan head baru dari linked list yang sudah terurut.
 
     Metode SEARCH (jump_search) mencari tas di inventaris menggunakan algoritma Jump Search. Metode ini mengambil nama tas yang akan dicari sebagai input dan mengembalikan objek tas jika ditemukan, atau None jika tidak ditemukan. Algoritma ini bekerja dengan membagi linked list menjadi blok-blok dengan ukuran sqrt(n) dan melompat ke blok yang mungkin berisi tas yang dicari. Lalu, algoritma secara linear mencari tas di dalam blok. Jika tas tidak ditemukan di dalam blok, algoritma melompat ke blok berikutnya dan mengulangi proses pencarian. Jika mencapai akhir linked list tanpa menemukan tas, algoritma mengembalikan None.
-
     Program ini juga memiliki fungsi menu() yang menampilkan menu pilihan kepada pengguna dan memanggil metode yang sesuai berdasarkan pilihan pengguna. 
 
 - FITUR DAN FUNGSIONALITAS
